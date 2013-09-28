@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6527E717F6951500B1779C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6527E617F6951500B1779C /* Foundation.framework */; };
+		7A6527E917F6951500B1779C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6527E817F6951500B1779C /* CoreGraphics.framework */; };
+		7A6527EB17F6951500B1779C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6527EA17F6951500B1779C /* UIKit.framework */; };
+		7A6527F117F6951500B1779C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A6527EF17F6951500B1779C /* InfoPlist.strings */; };
+		7A6527F317F6951500B1779C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6527F217F6951500B1779C /* main.m */; };
+		7A6527F717F6951500B1779C /* HTCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6527F617F6951500B1779C /* HTCAppDelegate.m */; };
+		7A6527FA17F6951500B1779C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6527F817F6951500B1779C /* Main.storyboard */; };
+		7A6527FD17F6951500B1779C /* HTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6527FC17F6951500B1779C /* HTCViewController.m */; };
+		7A6527FF17F6951500B1779C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6527FE17F6951500B1779C /* Images.xcassets */; };
+		7A65280617F6951500B1779C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A65280517F6951500B1779C /* XCTest.framework */; };
+		7A65280717F6951500B1779C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6527E617F6951500B1779C /* Foundation.framework */; };
+		7A65280817F6951500B1779C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6527EA17F6951500B1779C /* UIKit.framework */; };
+		7A65281017F6951500B1779C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A65280E17F6951500B1779C /* InfoPlist.strings */; };
+		7A65281217F6951500B1779C /* PharmaceuticalFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65281117F6951500B1779C /* PharmaceuticalFinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A65280917F6951500B1779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6527DB17F6951500B1779C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6527E217F6951500B1779C;
+			remoteInfo = PharmaceuticalFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A6527E317F6951500B1779C /* PharmaceuticalFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PharmaceuticalFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6527E617F6951500B1779C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A6527E817F6951500B1779C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A6527EA17F6951500B1779C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A6527EE17F6951500B1779C /* PharmaceuticalFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PharmaceuticalFinder-Info.plist"; sourceTree = "<group>"; };
+		7A6527F017F6951500B1779C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A6527F217F6951500B1779C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A6527F417F6951500B1779C /* PharmaceuticalFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PharmaceuticalFinder-Prefix.pch"; sourceTree = "<group>"; };
+		7A6527F517F6951500B1779C /* HTCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCAppDelegate.h; sourceTree = "<group>"; };
+		7A6527F617F6951500B1779C /* HTCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCAppDelegate.m; sourceTree = "<group>"; };
+		7A6527F917F6951500B1779C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A6527FB17F6951500B1779C /* HTCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCViewController.h; sourceTree = "<group>"; };
+		7A6527FC17F6951500B1779C /* HTCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCViewController.m; sourceTree = "<group>"; };
+		7A6527FE17F6951500B1779C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A65280417F6951500B1779C /* PharmaceuticalFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmaceuticalFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A65280517F6951500B1779C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A65280D17F6951500B1779C /* PharmaceuticalFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PharmaceuticalFinderTests-Info.plist"; sourceTree = "<group>"; };
+		7A65280F17F6951500B1779C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A65281117F6951500B1779C /* PharmaceuticalFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PharmaceuticalFinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A6527E017F6951500B1779C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6527E917F6951500B1779C /* CoreGraphics.framework in Frameworks */,
+				7A6527EB17F6951500B1779C /* UIKit.framework in Frameworks */,
+				7A6527E717F6951500B1779C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A65280117F6951500B1779C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A65280617F6951500B1779C /* XCTest.framework in Frameworks */,
+				7A65280817F6951500B1779C /* UIKit.framework in Frameworks */,
+				7A65280717F6951500B1779C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A6527DA17F6951500B1779C = {
+			isa = PBXGroup;
+			children = (
+				7A6527EC17F6951500B1779C /* PharmaceuticalFinder */,
+				7A65280B17F6951500B1779C /* PharmaceuticalFinderTests */,
+				7A6527E517F6951500B1779C /* Frameworks */,
+				7A6527E417F6951500B1779C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A6527E417F6951500B1779C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A6527E317F6951500B1779C /* PharmaceuticalFinder.app */,
+				7A65280417F6951500B1779C /* PharmaceuticalFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A6527E517F6951500B1779C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6527E617F6951500B1779C /* Foundation.framework */,
+				7A6527E817F6951500B1779C /* CoreGraphics.framework */,
+				7A6527EA17F6951500B1779C /* UIKit.framework */,
+				7A65280517F6951500B1779C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A6527EC17F6951500B1779C /* PharmaceuticalFinder */ = {
+			isa = PBXGroup;
+			children = (
+				7A6527F517F6951500B1779C /* HTCAppDelegate.h */,
+				7A6527F617F6951500B1779C /* HTCAppDelegate.m */,
+				7A6527F817F6951500B1779C /* Main.storyboard */,
+				7A6527FB17F6951500B1779C /* HTCViewController.h */,
+				7A6527FC17F6951500B1779C /* HTCViewController.m */,
+				7A6527FE17F6951500B1779C /* Images.xcassets */,
+				7A6527ED17F6951500B1779C /* Supporting Files */,
+			);
+			path = PharmaceuticalFinder;
+			sourceTree = "<group>";
+		};
+		7A6527ED17F6951500B1779C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A6527EE17F6951500B1779C /* PharmaceuticalFinder-Info.plist */,
+				7A6527EF17F6951500B1779C /* InfoPlist.strings */,
+				7A6527F217F6951500B1779C /* main.m */,
+				7A6527F417F6951500B1779C /* PharmaceuticalFinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A65280B17F6951500B1779C /* PharmaceuticalFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A65281117F6951500B1779C /* PharmaceuticalFinderTests.m */,
+				7A65280C17F6951500B1779C /* Supporting Files */,
+			);
+			path = PharmaceuticalFinderTests;
+			sourceTree = "<group>";
+		};
+		7A65280C17F6951500B1779C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A65280D17F6951500B1779C /* PharmaceuticalFinderTests-Info.plist */,
+				7A65280E17F6951500B1779C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A6527E217F6951500B1779C /* PharmaceuticalFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A65281517F6951500B1779C /* Build configuration list for PBXNativeTarget "PharmaceuticalFinder" */;
+			buildPhases = (
+				7A6527DF17F6951500B1779C /* Sources */,
+				7A6527E017F6951500B1779C /* Frameworks */,
+				7A6527E117F6951500B1779C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PharmaceuticalFinder;
+			productName = PharmaceuticalFinder;
+			productReference = 7A6527E317F6951500B1779C /* PharmaceuticalFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A65280317F6951500B1779C /* PharmaceuticalFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A65281817F6951500B1779C /* Build configuration list for PBXNativeTarget "PharmaceuticalFinderTests" */;
+			buildPhases = (
+				7A65280017F6951500B1779C /* Sources */,
+				7A65280117F6951500B1779C /* Frameworks */,
+				7A65280217F6951500B1779C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A65280A17F6951500B1779C /* PBXTargetDependency */,
+			);
+			name = PharmaceuticalFinderTests;
+			productName = PharmaceuticalFinderTests;
+			productReference = 7A65280417F6951500B1779C /* PharmaceuticalFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A6527DB17F6951500B1779C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HTC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = HTC13;
+				TargetAttributes = {
+					7A65280317F6951500B1779C = {
+						TestTargetID = 7A6527E217F6951500B1779C;
+					};
+				};
+			};
+			buildConfigurationList = 7A6527DE17F6951500B1779C /* Build configuration list for PBXProject "PharmaceuticalFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A6527DA17F6951500B1779C;
+			productRefGroup = 7A6527E417F6951500B1779C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A6527E217F6951500B1779C /* PharmaceuticalFinder */,
+				7A65280317F6951500B1779C /* PharmaceuticalFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A6527E117F6951500B1779C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6527FF17F6951500B1779C /* Images.xcassets in Resources */,
+				7A6527F117F6951500B1779C /* InfoPlist.strings in Resources */,
+				7A6527FA17F6951500B1779C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A65280217F6951500B1779C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A65281017F6951500B1779C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A6527DF17F6951500B1779C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6527FD17F6951500B1779C /* HTCViewController.m in Sources */,
+				7A6527F717F6951500B1779C /* HTCAppDelegate.m in Sources */,
+				7A6527F317F6951500B1779C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A65280017F6951500B1779C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A65281217F6951500B1779C /* PharmaceuticalFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A65280A17F6951500B1779C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6527E217F6951500B1779C /* PharmaceuticalFinder */;
+			targetProxy = 7A65280917F6951500B1779C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A6527EF17F6951500B1779C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6527F017F6951500B1779C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A6527F817F6951500B1779C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6527F917F6951500B1779C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A65280E17F6951500B1779C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A65280F17F6951500B1779C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A65281317F6951500B1779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A65281417F6951500B1779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A65281617F6951500B1779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PharmaceuticalFinder/PharmaceuticalFinder-Prefix.pch";
+				INFOPLIST_FILE = "PharmaceuticalFinder/PharmaceuticalFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A65281717F6951500B1779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PharmaceuticalFinder/PharmaceuticalFinder-Prefix.pch";
+				INFOPLIST_FILE = "PharmaceuticalFinder/PharmaceuticalFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A65281917F6951500B1779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PharmaceuticalFinder.app/PharmaceuticalFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PharmaceuticalFinder/PharmaceuticalFinder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PharmaceuticalFinderTests/PharmaceuticalFinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A65281A17F6951500B1779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PharmaceuticalFinder.app/PharmaceuticalFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PharmaceuticalFinder/PharmaceuticalFinder-Prefix.pch";
+				INFOPLIST_FILE = "PharmaceuticalFinderTests/PharmaceuticalFinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A6527DE17F6951500B1779C /* Build configuration list for PBXProject "PharmaceuticalFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A65281317F6951500B1779C /* Debug */,
+				7A65281417F6951500B1779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A65281517F6951500B1779C /* Build configuration list for PBXNativeTarget "PharmaceuticalFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A65281617F6951500B1779C /* Debug */,
+				7A65281717F6951500B1779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A65281817F6951500B1779C /* Build configuration list for PBXNativeTarget "PharmaceuticalFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A65281917F6951500B1779C /* Debug */,
+				7A65281A17F6951500B1779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A6527DB17F6951500B1779C /* Project object */;
+}
